@@ -1,0 +1,32 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>netstandard2.0;netstandard2.1;net5.0;net6.0</TargetFrameworks>
+    <LangVersion>latest</LangVersion>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <RootNamespace>{{Namespace}}</RootNamespace>
+    <PackageId>{{Prefix}}.{{ProjectName}}</PackageId>
+    <Authors>{{OwnerName}}</Authors>
+    <Product>{{Prefix}}.{{ProjectName}}</Product>
+    <Description>{{Description}}</Description>
+    <PackageProjectUrl>{{RepositoryUrl}}</PackageProjectUrl>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageIcon>{{ProjectName}}.png</PackageIcon>
+    <RepositoryUrl>{{RepositoryUrl}}</RepositoryUrl>
+    <PackageTags>{{Tags}}</PackageTags>
+    <PackageLicenseExpression>Unlicense</PackageLicenseExpression>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\{{ProjectName}}.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Include="..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>

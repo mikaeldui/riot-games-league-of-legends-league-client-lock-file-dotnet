@@ -1,0 +1,29 @@
+name: .NET
+on:
+  push:
+  pull_request:
+  
+jobs:
+  build:
+    name: 'Build & Pack'
+    uses: mikaeldui/actions/.github/workflows/dotnet-build-and-pack.yml@main
+
+  nuget-org:
+    name: 'NuGet.org'
+    uses: mikaeldui/actions/.github/workflows/nuget.org-deploy.yml@main
+    needs: build
+    secrets:
+      NUGET_ORG_API_KEY: ${{ secrets.NUGET_ORG_API_KEY }}
+
+  github-packages:
+    name: 'GitHub Packages'
+    uses: mikaeldui/actions/.github/workflows/github-packages-deploy.yml@main
+    needs: build
+
+  github-release:
+    name: 'GitHub Release'
+    uses: mikaeldui/actions/.github/workflows/github-release.yml@main
+    needs: [nuget-org, github-packages]
+    with:
+      github_packages_url: ${{ needs.github-packages.outputs.url }}
+      nuget_org_url: ${{ needs.nuget-org.outputs.url }}

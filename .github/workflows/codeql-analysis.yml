@@ -1,0 +1,10 @@
+name: CodeQL Analysis
+on:
+  push:
+  pull_request:
+  schedule:
+    - cron: '15 20 * * 2'
+jobs:
+  codeql:
+    name: 'CodeQL'
+    uses: mikaeldui/actions/.github/workflows/codeql-analysis-csharp.yml@main
