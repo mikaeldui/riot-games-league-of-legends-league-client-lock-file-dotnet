@@ -4,9 +4,9 @@
     <TargetFramework>net6.0</TargetFramework>
     <Nullable>enable</Nullable>
     <IsPackable>false</IsPackable>
-    <RootNamespace>{{Namespace}}.Tests</RootNamespace>
-    <Authors>{{OwnerName}}</Authors>
-    <Product>{{Prefix}}.{{ProjectName}}</Product>
+    <RootNamespace>RiotGames.LeagueOfLegends.LeagueClient.Tests</RootNamespace>
+    <Authors>Mikael Dúi Bolinder</Authors>
+    <Product>MikaelDui.RiotGames.LeagueOfLegends.LeagueClient.LockFile</Product>
   </PropertyGroup>
 
   <ItemGroup>
@@ -18,7 +18,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\{{ProjectName}}\{{ProjectName}}.csproj" />
+    <ProjectReference Include="..\RiotGames.LeagueOfLegends.LeagueClient.LockFile\RiotGames.LeagueOfLegends.LeagueClient.LockFile.csproj" />
   </ItemGroup>
 
 </Project>

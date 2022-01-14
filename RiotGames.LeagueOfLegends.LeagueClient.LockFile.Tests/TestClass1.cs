@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace {{Namespace}}.Tests
+namespace RiotGames.LeagueOfLegends.LeagueClient.Tests
 {
     [TestClass]
     public class TestClass1
