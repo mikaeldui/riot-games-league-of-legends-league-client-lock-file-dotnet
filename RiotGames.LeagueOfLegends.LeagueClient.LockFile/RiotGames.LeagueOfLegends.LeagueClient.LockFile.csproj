@@ -10,10 +10,10 @@
     <Authors>Mikael Dúi Bolinder</Authors>
     <Product>MikaelDui.RiotGames.LeagueOfLegends.LeagueClient.LockFile</Product>
     <Description>Support for reading the League Client (LCU) lock file, both from a running process and from a path.</Description>
-    <PackageProjectUrl>https://github.com/mikaeldui/riot-games-league-of-legends-league-client-lock-file-dotnet</PackageProjectUrl>
+    <PackageProjectUrl>https://github.com/mikaeldui/riotgames-leagueoflegends-leagueclient-lockfile-dotnet</PackageProjectUrl>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <PackageIcon>RiotGames-512x512.png</PackageIcon>
-    <RepositoryUrl>https://github.com/mikaeldui/riot-games-league-of-legends-league-client-lock-file-dotnet</RepositoryUrl>
+    <RepositoryUrl>https://github.com/mikaeldui/riotgames-leagueoflegends-leagueclient-lockfile-dotnet</RepositoryUrl>
     <PackageTags>RiotGames; LeagueOfLegends; LeagueClient; LockFile; LoL; LCU</PackageTags>
     <PackageLicenseExpression>Unlicense</PackageLicenseExpression>
   </PropertyGroup>
