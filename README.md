@@ -1,5 +1,5 @@
-# Riot Games League of Legends League Client Lock File .NET
-Provides a struct for the League Client's lock file and methods for retrieving it using either a process name of a path.
+# League Client Lock File
+Provides a struct for the League Client's lock file and methods for retrieving it using either a process name or a path.
 
 [![.NET](https://github.com/mikaeldui/riotgames-leagueoflegends-leagueclient-lockfile-dotnet/actions/workflows/dotnet.yml/badge.svg)](https://github.com/mikaeldui/riotgames-leagueoflegends-leagueclient-lockfile-dotnet/actions/workflows/dotnet.yml)
 [![CodeQL Analysis](https://github.com/mikaeldui/riotgames-leagueoflegends-leagueclient-lockfile-dotnet/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/mikaeldui/riotgames-leagueoflegends-leagueclient-lockfile-dotnet/actions/workflows/codeql-analysis.yml)
