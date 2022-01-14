@@ -29,8 +29,4 @@
     </None>
   </ItemGroup>
 
-  <ItemGroup>
-    <PackageReference Include="MikaelDui.Extensions" Version="*" />
-  </ItemGroup>
-
 </Project>
