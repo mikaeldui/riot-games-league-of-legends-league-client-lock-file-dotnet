@@ -9,17 +9,17 @@
     <PackageId>MikaelDui.RiotGames.LeagueOfLegends.LeagueClient.LockFile</PackageId>
     <Authors>Mikael Dúi Bolinder</Authors>
     <Product>MikaelDui.RiotGames.LeagueOfLegends.LeagueClient.LockFile</Product>
-    <Description>Provides a class for the lockfile!</Description>
-    <PackageProjectUrl>https://github.com/mikaeldui/riot-games-league-of-legends-league-client-lock-file-dotnet</PackageProjectUrl>
+    <Description>Support for reading the League Client (LCU) lock file, both from a running process and from a path.</Description>
+    <PackageProjectUrl>https://github.com/mikaeldui/riotgames-leagueoflegends-leagueclient-lockfile-dotnet</PackageProjectUrl>
     <PackageReadmeFile>README.md</PackageReadmeFile>
-    <PackageIcon>RiotGames.LeagueOfLegends.LeagueClient.LockFile.png</PackageIcon>
-    <RepositoryUrl>https://github.com/mikaeldui/riot-games-league-of-legends-league-client-lock-file-dotnet</RepositoryUrl>
-    <PackageTags></PackageTags>
+    <PackageIcon>RiotGames-256x256.png</PackageIcon>
+    <RepositoryUrl>https://github.com/mikaeldui/riotgames-leagueoflegends-leagueclient-lockfile-dotnet</RepositoryUrl>
+    <PackageTags>RiotGames; LeagueOfLegends; LeagueClient; LockFile; LoL; LCU</PackageTags>
     <PackageLicenseExpression>Unlicense</PackageLicenseExpression>
   </PropertyGroup>
 
   <ItemGroup>
-    <None Include="..\RiotGames.LeagueOfLegends.LeagueClient.LockFile.png">
+    <None Include="..\RiotGames-256x256.png">
       <Pack>True</Pack>
       <PackagePath>\</PackagePath>
     </None>
@@ -27,10 +27,6 @@
       <Pack>True</Pack>
       <PackagePath>\</PackagePath>
     </None>
-  </ItemGroup>
-
-  <ItemGroup>
-    <PackageReference Include="MikaelDui.Extensions" Version="*" />
   </ItemGroup>
 
 </Project>
