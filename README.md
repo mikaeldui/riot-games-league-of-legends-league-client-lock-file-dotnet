@@ -1,10 +1,15 @@
-# League Client Lock File
+# League Client Lock File (.NET)
 [![.NET](https://github.com/mikaeldui/riotgames-leagueoflegends-leagueclient-lockfile-dotnet/actions/workflows/dotnet.yml/badge.svg)](https://github.com/mikaeldui/riotgames-leagueoflegends-leagueclient-lockfile-dotnet/actions/workflows/dotnet.yml)
 [![CodeQL Analysis](https://github.com/mikaeldui/riotgames-leagueoflegends-leagueclient-lockfile-dotnet/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/mikaeldui/riotgames-leagueoflegends-leagueclient-lockfile-dotnet/actions/workflows/codeql-analysis.yml)
 
 ![image](https://user-images.githubusercontent.com/3706841/150383991-541dd1f3-b2ee-4cb6-a7d4-dde52e46fef4.png)
 
 Provides a struct for the League Client's lock file and methods for retrieving it using either a process name or a path.
+
+# Sponsors
+A big thank you for your support!
+
+[![JetBrains Logo (Main) logo](https://raw.githubusercontent.com/mikaeldui/riot-games-dotnet-client/main/sponsors/jetbrains.svg)](https://jb.gg/OpenSourceSupport)
 
 ## Installation
 
@@ -16,7 +21,7 @@ You can install it using the following **.NET CLI** command:
 Getting the lock file for a running process
 
     LeagueClientLockFile lockFile = LeagueClientLockFile.FromProcess();
-    Console.WriteLines("Process Name: " + lockfile.ProcessName);
+    Console.WriteLine("Process Name: " + lockfile.ProcessName);
     Console.WriteLine("Process ID: " + lockFile.ProcessId);
     Console.WriteLine("Port: " + lockFile.Port);
     Console.WriteLine("Password: " + lockFile.Password);
