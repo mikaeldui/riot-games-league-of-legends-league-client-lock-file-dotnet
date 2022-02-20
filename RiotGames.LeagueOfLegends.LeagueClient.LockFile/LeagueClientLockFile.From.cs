@@ -55,7 +55,7 @@ public readonly partial struct LeagueClientLockFile
     {
         try
         {
-            var process = Process.GetProcessesByName(processName).Single();
+            using var process = Process.GetProcessesByName(processName).Single();
 
             if (process.MainModule == null)
                 throw new LeagueClientLockFileProcessException(
